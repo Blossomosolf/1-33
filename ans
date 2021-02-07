@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+from scipy import stats
+import math
+import statistics
+import seaborn as sns
+
+import statsmodels.stats.proportion
+A = [75,30]
+B = [300,300]
+statsmodels.stats.proportion.proportions_ztest(A, B, alternative='two-sided')
